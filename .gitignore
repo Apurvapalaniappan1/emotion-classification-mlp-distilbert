@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and caches
+*_checkpoints/
+checkpoint-*/
+*.safetensors
+*.bin
+.cache/
+
+# Generated data and local outputs
+apurva_ood_emotion_annotations.csv
+*.log
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
