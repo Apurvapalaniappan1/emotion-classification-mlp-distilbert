@@ -89,8 +89,7 @@ DistilBERT generalized better to the literary sentences, but both models experie
 ```text
 emotion-classification-mlp-distilbert/
 ├── README.md
-├── notebooks/
-│   └── emotion_classification.ipynb
+├── emotion_classification.ipynb
 ├── requirements.txt
 ├── .gitignore
 └── LICENSE
@@ -98,7 +97,7 @@ emotion-classification-mlp-distilbert/
 
 ## Running the notebook
 
-1. Open `notebooks/emotion_classification.ipynb` in Google Colab.
+1. Open `emotion_classification.ipynb` in Google Colab.
 2. Select a GPU runtime for DistilBERT fine-tuning.
 3. Run the notebook from top to bottom.
 
